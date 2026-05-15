@@ -27,7 +27,7 @@ export default async function LoginPage({
 
         <div className="relative z-10 flex items-center gap-3">
           <Layers className="h-10 w-10 text-blue-500" />
-          <span className="font-black tracking-tighter text-2xl text-white">BIM ONE</span>
+          <span className="font-black tracking-tighter text-2xl text-white">BIM ONE ACADEMY</span>
         </div>
 
         <div className="relative z-10 max-w-lg mb-10">
@@ -48,7 +48,7 @@ export default async function LoginPage({
               <div className="w-10 h-10 rounded-full border-2 border-[#0B0D17] bg-slate-600"></div>
             </div>
             <div className="text-sm font-medium text-slate-400">
-              Junte-se a dezenas de profissionais <br/>na metodologia <span className="text-white font-bold">BIM One</span>.
+              Junte-se a dezenas de profissionais <br/>na metodologia <span className="text-white font-bold">BIM One ACADEMY</span>.
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default async function LoginPage({
           <div className="mb-10 text-center lg:text-left">
             <div className="flex items-center justify-center lg:justify-start gap-3 mb-6 lg:hidden">
               <Layers className="h-8 w-8 text-blue-500" />
-              <span className="font-black tracking-tighter text-xl text-white">BIM ONE</span>
+              <span className="font-black tracking-tighter text-xl text-white">BIM ONE ACADEMY</span>
             </div>
             <h2 className="text-3xl font-bold text-white mb-2 tracking-tight">Bem-vindo de volta</h2>
             <p className="text-slate-400 font-medium">Acesse sua conta para continuar aprendendo.</p>
@@ -138,7 +138,7 @@ export default async function LoginPage({
 
           {/* Links para Termos e Privacidade */}
           <p className="mt-10 text-center text-xs text-slate-600 font-medium">
-            Ao entrar, você concorda com os <Link href="/termos" className="text-slate-400 hover:text-white underline decoration-slate-600 underline-offset-4">Termos de Serviço</Link> e a <Link href="/privacidade" className="text-slate-400 hover:text-white underline decoration-slate-600 underline-offset-4">Política de Privacidade</Link> da BIM One.
+            Ao entrar, você concorda com os <Link href="/termos" className="text-slate-400 hover:text-white underline decoration-slate-600 underline-offset-4">Termos de Serviço</Link> e a <Link href="/privacidade" className="text-slate-400 hover:text-white underline decoration-slate-600 underline-offset-4">Política de Privacidade</Link> da BIM One ACADEMY.
           </p>
 
         </div>
