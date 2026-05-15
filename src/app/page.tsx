@@ -358,7 +358,7 @@ export default function LandingPage() {
               <ul className="space-y-4 mb-10 flex-1">
                 <li className="flex items-center gap-3 text-slate-100">
                   <CheckCircle2 className="h-5 w-5 text-blue-400 shrink-0" />
-                  <span className="font-semibold">Plano Básico Inclusion</span>
+                  <span className="font-semibold">Plano Básico Inclusivo</span>
                 </li>
                 <li className="flex items-center gap-3 text-slate-100">
                   <CheckCircle2 className="h-5 w-5 text-blue-400 shrink-0" />
@@ -424,14 +424,15 @@ export default function LandingPage() {
       </section>
 
       {/* ========================================== */}
-      {/* INSTRUTOR */}
+      {/* INSTRUTOR (FOTO ATUALIZADA AQUI) */}
       {/* ========================================== */}
       <section id="instrutor" className="py-24 lg:py-32 border-t border-white/5 bg-gradient-to-b from-transparent to-[#0B0D17]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden mx-auto mb-8 border-2 border-blue-500 p-1 shadow-[0_0_30px_rgba(37,99,235,0.3)]">
+            {/* LINHA ATUALIZADA:src="/geraldo-perfil.jpg" */}
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500" 
-              className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500" 
+              src="/geraldo-perfil.jpg" 
+              className="w-full h-full object-cover rounded-full transition-all duration-500" 
               alt="Geraldo Neves" 
             />
           </div>
